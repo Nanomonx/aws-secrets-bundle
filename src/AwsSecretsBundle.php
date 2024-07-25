@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle;
+namespace Nanomonx\AwsSecretsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Constup\AwsSecretsBundle\Tests\Provider;
+namespace Nanomonx\AwsSecretsBundle\Tests\Provider;
 
 use Aws\Result;
 use Aws\SecretsManager\SecretsManagerClient;
-use Constup\AwsSecretsBundle\Provider\AwsSecretsEnvVarProvider;
+use Nanomonx\AwsSecretsBundle\Provider\AwsSecretsEnvVarProvider;
 use PHPUnit\Framework\TestCase;
 use Prophecy\PhpUnit\ProphecyTrait;
 

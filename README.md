@@ -1,6 +1,6 @@
 # AWS Secrets Bundle
 
-[![GitHub license](https://img.shields.io/github/license/constup/aws-secrets-bundle?style=flat-square&color=green)](https://github.com/constup/aws-secrets-bundle/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/nanomonx/aws-secrets-bundle?style=flat-square&color=green)](https://github.com/nanomonx/aws-secrets-bundle/blob/master/LICENSE)
 ![PHP version](https://img.shields.io/badge/PHP-%5E7.4-blueviolet?style=flat-square)
 ![Symfony](https://img.shields.io/badge/Symfony-%5E5.3-blueviolet?style=flat-square)
 
@@ -8,11 +8,7 @@ Use AWS Secrets as service container parameters in Symfony.
 
 ## History and honorable mentions
 
-This bundle is loosely based on and inspired by `incompass/aws-secrets-bundle` (https://github.com/casechek/aws-secrets-bundle). 
-The Incompass bundle is compatible with Symfony 3 and 4, and it looks like it's not updated/maintained anymore. This 
-package is built to be compatible with Symfony 5 and will, over time, get improvements.
-
-If you are still using Symfony 3 or 4, please use the Incompass bundle instead of this one.
+This bundle is a fork of https://github.com/constup/aws-secrets-bundle
 
 ## Prerequisites
 
@@ -36,15 +32,20 @@ environments and using credentials is covered here: [AWS credentials and authent
 
 ## Installation
 
-There are two main versions of AWS Secrets bundle: 1.x and 2.x.
+In your composer.json file, add the following:
 
-Install version 1.x to use this package with Symfony 5.x and PHP 7.4.
+```json
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Nanomonx/aws-secrets-bundle"
+    }
+  ],
+```
 
-    $ composer require constup/aws-secrets-bundle:^1
+Then run:
 
-Install version 2.x to use this package with Symfony 6.x and PHP 8.x.
-
-    $ composer require constup/aws-secrets-bundle:^2
+    $ composer require nanomonx/aws-secrets-bundle:^3
 
 ## Configuration
 

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Constup\AwsSecretsBundle\Provider;
+namespace Nanomonx\AwsSecretsBundle\Provider;
 
 use Aws\SecretsManager\SecretsManagerClient;
 
