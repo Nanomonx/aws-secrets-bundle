@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=8.0",
-        "symfony/dependency-injection": "^7.0",
+        "symfony/dependency-injection": "^7.0|^8.0",
         "ext-json": "*"
     },
     "require-dev": {
