@@ -10,7 +10,7 @@
         "ext-json": "*"
     },
     "require-dev": {
-        "symfony/framework-bundle": "^7.0",
+        "symfony/framework-bundle": "^7.0|^8.0",
         "phpunit/phpunit": "^9.5",
         "symfony/phpunit-bridge": "^5.3 | ^4.0",
         "phpspec/prophecy-phpunit": "^2.0",
